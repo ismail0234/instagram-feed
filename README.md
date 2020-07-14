@@ -1,5 +1,5 @@
 # Instagram Feed
-İnstagram hesabınızdaki gönderileri websitenizde yayınlamak için kullanılan küçük bir javascript kütüphanesidir. Bu kütüphane herhangi bir bağımlılık gerektirmez. İsteğe bağlı çoklu instagram hesaplarının gönderilerini listelemek için kullanabilirsiniz.
+İnstagram hesabınızdaki gönderileri websitenizde yayınlamak için kullanılan küçük bir javascript kütüphanesidir. Bu kütüphane herhangi bir bağımlılık gerektirmez. İsteğe bağlı çoklu instagram hesaplarının gönderilerini listelemek için kullanabilirsiniz. Kütüphane boyutu sadece **3KB Boyutunda**.
 
 ## Bağış Yapın
 
@@ -49,7 +49,7 @@ Bu durum olduğu taktirde **addProfile** alanına eklediğimiz kullanıcı adın
 **Önemli Not:** 2. parametre isteğe bağlıdır. İsteyenler kullanmayabilir.
 
 ```js
-<script type="text/javascript" src="instagram-feed.js"></script>
+<script type="text/javascript" src="instagram-feed.min.js"></script>
 <script type="text/javascript">
 	instagram.addProfile('botbenson');
 	instagram.addProfile('botbenson2', 777145456);
