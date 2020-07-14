@@ -33,6 +33,19 @@
 </div>
 ```
 
+#### Javascript Yapılandırması
+Javascript yapılandırması oldukça basittir. Bu bölümde yapılması gereken şey istediğiniz hesapların adlarını **instagram.addProfile('botbenson')** olarak eklemeniz. Burada dikkat etmeniz gereken kısım instagram çoğu zaman hesapları ziyaretçiye kapatır ve bu gibi durumda giriş sayfasına yönlendirir. Bu durum olduğu taktirde **addProfile** alanına eklediğimiz kullanıcı adının id alma işlemi başarısız olacaktır. Bu sorunu çözmek için isteğe bağlı olarak 2. parametreyi hesabın id numarası olarak gönderirseniz çift doğrulama ile kullanım şansınızı oldukça fazla arttıracaktır. (2. parametre isteğe bağlıdır. İsteyenler kullanmayabilir.)
+
+```js
+<script type="text/javascript" src="instagram-feed.js"></script>
+<script type="text/javascript">
+	instagram.addProfile('botbenson');
+	instagram.addProfile('botbenson2', 777145456);
+	instagram.addProfile('botbenson3', 775546452);
+	instagram.load();
+</script>
+```
+
 #### Resim Boyutlarını Ayarlamak
 Resim Boyutlarını ayarlamak için 5 adet seçeneğiniz vardır. Bunlar aşağıdaki gibidir ve seçtğiniz resim boyutunu resim elementine **data-size** olarak göndermeniz yeterli olacaktır.
 ```html
