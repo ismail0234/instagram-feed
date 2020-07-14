@@ -1,6 +1,14 @@
 # Instagram Feed
 İnstagram hesabınızdaki gönderileri websitenizde yayınlamak için kullanılan küçük bir javascript kütüphanesidir. Bu kütüphane herhangi bir bağımlılık gerektirmez. İsteğe bağlı çoklu instagram hesaplarının gönderilerini listelemek için kullanabilirsiniz.
 
+## Bağış Yapın
+
+Yaptığım işlerden memnun iseniz, daha iyi ve daha çok iş çıkartmam için beni destekleyebilirsiniz;
+
+* 10 TL Bağış => https://shipy.link/y/E92jtcP1
+* 20 TL Bağış => https://shipy.link/y/SWCJ5bFO
+* 50 TL Bağış => https://shipy.link/y/p2kwrO6i
+* 100 TL Bağış => https://shipy.link/y/6QJDuAoL
 
 ## Kullanım
 İlk olarak indirdiğiniz kütüphaneyi web sayfanıza dahil edin. Daha sonra html yapılandırmanızı ayarlayın Resimlerin  bunu yapmak çok basit! 
