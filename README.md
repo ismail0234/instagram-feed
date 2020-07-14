@@ -32,3 +32,39 @@
     </div>
 </div>
 ```
+
+#### Resim Boyutlarını Ayarlamak
+Resim Boyutlarını ayarlamak için 5 adet seçeneğiniz vardır. Bunlar aşağıdaki gibidir ve seçtğiniz resim boyutunu resim elementine **data-size** olarak göndermeniz yeterli olacaktır.
+```html
+<img loading="lazy" data-size="small" class="instagram-image img-fluid">
+```
+
+#### Resim Boyutları Listesi
+<table width="100%">
+    <thead>
+        <th>Kod</th>
+        <th>Boyut</th>
+    </thead>
+    <tbody>
+        <tr>
+        	<td>thumbnail</td>
+        	<td>150x150</td>
+        </tr>
+        <tr>
+        	<td>small</td>
+        	<td>240x240</td>
+        </tr>
+        <tr>
+        	<td>medium</td>
+        	<td>320x320</td>
+        </tr>
+        <tr>
+        	<td>large</td>
+        	<td>480x480</td>
+        </tr>
+        <tr>
+        	<td>xlarge</td>
+        	<td>640x640</td>
+        </tr>
+    </tbody>
+</table>
